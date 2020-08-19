@@ -1,9 +1,19 @@
-body
-	display:flex
-	flex-direction: column
+.one, .two
+	display: flex
+
+.one
+	background-color: lightgreen
+	align-items: center
 	justify-content: center
-	background-color: #f4f4f4
-	font-size: 24px
-	color: #353535
-	text-align: center
+	min-height: 1000px
+
+.two
+	background-color: lightblue
+	align-items: center
+	justify-content: space-around
+	min-height: 1000px
+
+@media screen and (max-width: 768px)
+	.one
+		background-color: tomato
 	
